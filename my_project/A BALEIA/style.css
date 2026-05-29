@@ -1,0 +1,11 @@
+  body {
+            background-color: rgb(169, 217, 245);
+            display: block;
+
+        }
+    h1 {
+        color: darkblue;
+    }
+    p {
+        color: rgb(104, 27, 177);
+    }

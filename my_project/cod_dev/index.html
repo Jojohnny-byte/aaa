@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do</title>
+    <style>
+        body{background-color: rgb(46, 12, 12);}
+       h1{color: rgb(2, 20, 43);}
+         p{color: aliceblue;}
+        h2{color: aliceblue;}
+        
+        
+        .galeria {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 50px;
+            background-color: #5e1616;
+        }
+
+        .galeria img {
+            max-width: 200px;
+            height: auto;
+            border: 5px solid rgb(82, 4, 4); 
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .galeria img:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.5);
+        } 
+
+        button {
+        /* 1. Tamanho e Espaçamento */
+        padding: 7px 7px;
+        font-size: 20px;
+        
+        /* 2. Cores (Fundo e Texto) */
+        background-color: #680303; /* Azul, mude se quiser */
+        color: white;
+        
+        /* 3. A Borda e Sombra (Igual às imagens) */
+        border: 5px solid rgb(99, 3, 3); 
+        box-shadow: 0px 4px 15px rgba(107, 3, 3, 0.3);
+        border-radius: 10px;
+        
+       
+        cursor: pointer;      /* Faz aparecer a "mãozinha" do mouse */
+        transition: 0.3s;     /* Deixa o efeito suave */
+        outline: none;        /* Remove a linha de seleção padrão */
+        }
+
+
+        button:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.5);
+        background-color: #bb0404; 
+}
+    
+        p{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: #9b0000;}
+
+        img{text-align: center;}
+
+        h1{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center; color: #a51a01;}
+
+        section{text-align: center;}
+        
+        a{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #310000;}
+         
+        li{text-align: center;}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="galeria">
+        <img src="WhatsApp Image 2026-03-18 at 3.38.51 PM.jpeg" width="150" height="150" style="border-radius: 50%; ">
+        </div>
+        <h1>👨‍🍳 [KAUAN GOMES] </h1><h1> Estudante de TI | Aspirante a Chef | Inventor nas horas vagas</h1>
+        <section id="home">
+                <nav>
+                    <button ><a href="#home">INICIO</a></button>
+                    <button ><a href="#sobre">SOBRE MIM</a></button>
+                    <button ><a href="#hobbies">MEU HOBBIES</a></button>
+                    <button ><a href="#meu">ONDE QUERO IR</a></button>
+                    <button><a href="#sonho">MEU SONHO</a></button>
+                    <button ><a href="#contato">CONTATO</a></button>
+                </nav>     
+        </section>
+    </header>
+    <main>
+        <section id="Sobre">
+            <h1 >💻 Sobre Mim </h1>
+                    <p>Olá, eu sou o Kauan. Atualmente, estudo <strong>TI no IFTO</strong>, mas vou ser sincero: meu coração não<br>
+                    bate mais forte por códigos ou redes. Para mim, este curso é a <strong>escada</strong> — a base técnica e<br>
+                    intelectual que estou construindo para alcançar meu verdadeiro grande sonho </p>
+
+                    <p >Sou apaixonado por animais, especialmente <strong>gatos e répteis</strong>, e acredito que a observação e o<Br>
+                    cuidado que tenho com eles se refletem na minha paciência para criar e aprender coisas
+                    novas.</P>
+                    
+                    <img  src="https://fotos.amomeupet.org/uploads/fotos/1600718028_5f6904ccde027_hd.jpeg" width="300" height="200"style="text-align: center;">
+
+
+        </section>
+        <section id="Hobbies">
+            <h1>  🎨 Meus Hobbies   </h1>
+
+                <p >Para mim, o tempo livre é uma oportunidade de dar vida a novas ideias. Meus principais interesses são:<br></P> 
+
+                    <h1 >Cozinhar:</h1>
+                <P > Meu hobby principal e futura profissão. É onde misturo técnica e intuição.<br></P>
+                
+                    <img src="https://conteudo.imguol.com.br/c/entretenimento/75/2019/12/02/cozinhar-1575318605600_v2_4x3.jpg " width="300">
+
+                    <h1 >Jogar:</h1>
+                    <div class="galeria">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/1/1a/Terraria_Steam_artwork.jpg" alt="Foto 1">
+                    <img src="https://www.europanet.com.br/image_gen/resizeimg.php?cod_produto=6001605" alt="Foto 2"width="270" height="">
+                    <img src="https://cdn1.epicgames.com/1368a7f14c3344bbaededbae528fafed/offer/EGS_DeadCells_MotionTwin_S2-1200x1600-34d9d5ebca89e17e0a26ddb2cb158b75.jpg" alt="Foto 3" width="270">
+                    </div>
+                <p> esses são os meus favoritos.<br></p>
+                    
+
+                    <h1>Fazer Crochê:</h1>
+                      <div class="galeria">
+                    <img src="https://clubepaineiras.org.br/wp-content/uploads/2022/10/croche-bavaro-800x450.jpg" width="300">
+                    <img src="https://t4.ftcdn.net/jpg/00/78/45/41/360_F_78454171_nA3cD2KtM79FdQkHDNfcHxlIQbtgYDTB.jpg" width="200">
+                </div>
+                <p > Um exercício de paciência e precisão, criando formas e texturas do zero.<br></p>
+              
+                    <h1 >Desenhar:</h1>
+                    <div class="galeria">
+                        <img src="WhatsApp Image 2026-03-18 at 3.38.50 PM (1).jpeg">
+                        <img src="WhatsApp Image 2026-03-18 at 3.38.50 PM.jpeg">
+                    </div>  
+                <p> Onde coloco no papel minha visão de mundo e esboço minhas próximas criações.</p>
+                    
+        </section>
+        <section id="meu">
+            <h1>🌎 Lugares que quero conhecer</h1>
+                <p>
+                    Antes de me tornar um Chef renomado, quero muito carimbar meu passaporte nesses lugares:</p>
+                <ul>
+                    <h1><li >Japão:</li></h1>
+                    <div>
+                        <img src="https://www.advantour.com/img/japan/images/general.jpg" width="300">
+                    </div>
+                    <p>Para ver de perto aquela cultura doida e comer a comida original de lá.</p>
+
+                    <h1><li >México:</li></h1>
+                        <div>
+                            <img src="https://www.hilton.com/im/en/NoHotel/15679079/shutterstock-1362420743.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1&rw=1280&rh=854" width="300">
+                        </div>
+                         
+                    <p >Porque eu adoro tempero forte e quero conhecer a vibe do país.</p>
+
+                    <h1><li >Londres:</li></h1>
+                    <div>
+                        <img src="https://cdn2.civitatis.com/reino-unido/londres/guia/londres-nuit" width="300">
+                    </div>
+                    <p >Um lugar que sempre tive vontade de visitar e explorar as ruas.</p>
+                </ul>
+        </section>
+        <section id="sonho">
+          <H1>🚀 Objetivos para o Futuro</H1>
+          <P>Meu foco é ser um <STrong>Chef de Cozinha renomado</STrong>. Quero usar tudo o que estou aprendendo <br> hoje para ter sucesso na gastronomia e conseguir construir uma família massa.</P>
+        </section>
+        <section>
+           <footer>
+            <h1>📞 Me encontre em:</h1>
+            <p></p>
+           </footer>
+        </section>
+    </main>    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

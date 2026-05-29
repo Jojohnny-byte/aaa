@@ -1,0 +1,22 @@
+body {
+    background-color:black
+
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    display: flex; 
+    
+}
+h1{ balao: 200.;
+   color: rgb(134, 0, 0);
+ 
+}
+.balao {
+  background: rgb(122, 0, 0);
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+  width: 200px;
+   
+}
